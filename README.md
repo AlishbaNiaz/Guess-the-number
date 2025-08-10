@@ -27,15 +27,6 @@ CSS3 — styling and layout.
 
 JavaScript (ES6) — game logic and interactivity.
 
-📂 Project Structure
-bash
-Copy
-Edit
-Number-Guessing-Game/
-│── index.html       # Main HTML structure
-│── style.css        # Styling for the game
-│── script.js        # Game logic
-│── README.md        # Project documentation
 🚀 How to Play
 Open index.html in your browser.
 
