@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number Game</title>
+    <link rel="stylesheet" href="Game.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <h1>🎯 Guess the Number</h1>
+        
+        <div id="name-section">
+            <p>Enter your name to start the game:</p>
+            <input type="text" id="playerName" placeholder="Your Name">
+            <button onclick="startGame()">Start Game</button>
+        </div>
+
+        <div id="game-section" style="display: none;">
+            <p>Hello <span id="displayName"></span>! Guess a number between 1 and 100</p>
+            <input type="number" id="guess" placeholder="Enter your guess">
+            <button onclick="checkGuess()">Submit Guess</button>
+            <p id="hint"></p>
+            <p>Tries left: <span id="triesLeft">10</span></p>
+        </div>
+
+        <div id="result-section" style="display: none;">
+            <h2 id="result-message"></h2>
+            <button onclick="location.reload()">Play Again</button>
+        </div>
+    </div>
+
+    <script src="Game.js"></script>
+</body>
+</html>
